@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(232, 70, 21);
+    font-family: "Aladin";
+    font-size: 60px;
+    line-height: 0.5;
+}
+
+body {
+    background-color: rgb(78, 28, 57);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 2;
+}
+
+li{
+    color: rgb(255, 185, 15);
+    text-align: justify;
+}
+
+.historyList{
+    background-color: rgb(78, 28, 59);
+    box-shadow: 1px 1px 5px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
