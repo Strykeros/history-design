@@ -1,0 +1,10 @@
+$(function(){
+    $(".wrapper1").scroll(function(){
+        $(".wmd-view")
+            .scrollLeft($(".wrapper1").scrollLeft());
+    });
+    $(".wmd-view").scroll(function(){
+        $(".wrapper1")
+            .scrollLeft($(".wmd-view").scrollLeft());
+    });
+});
